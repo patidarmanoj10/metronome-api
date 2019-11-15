@@ -3,15 +3,15 @@
     "origin": "*"
   },
   "eth": {
-    "chain": "ropsten",
+    "chain": "mainnet",
     "enabled": true,
-    "exportStartBlock": 3399250,
-    "nodeTiemout": 30000,
+    "exportStartBlock": 5659894,
+    "nodeTiemout": 3000000,
     "reconnectInterval": 3000,
     "founderTokens": "2000000000000000000000000",
     "ipcPath": "/Library/Ethereum/geth.ipc",
     "minterAddress": "0x0000000000000000000000000000000000000000",
-    "webSocketUrl": "ws://localhost:8546"
+    "webSocketUrl": "wss://mainnet.infura.io/ws/v3/7ec1caf53e4c4dbd91725970c8c784ba"
   },
   "history": {
     "auctionOversampling": 10,
